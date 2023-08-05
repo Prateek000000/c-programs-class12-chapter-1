@@ -1,0 +1,19 @@
+#include<stdio.h>
+void vol();
+int main()
+{
+	vol();
+	return 0;
+}
+void vol()
+{
+	int l,b,h,v;
+	printf("Enter length:");
+	scanf("%d",&l);
+	printf("Enter width:");
+	scanf("%d",&b);
+	printf("Enter height:");
+	scanf("%d",&h);
+	v=l*b*h;
+	printf("Volume is: %d",v);
+}
